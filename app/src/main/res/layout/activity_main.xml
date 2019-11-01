@@ -44,13 +44,12 @@
         style="@style/NameStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAlignment="center"
-
         android:background="@color/colorAccent"
+
         android:paddingBottom="@dimen/small_padding"
         android:text=""
-        tools:visibility="gone"
-        />
+        android:textAlignment="center"
+        android:visibility="gone" />
 
     <ImageView
         android:id="@+id/imageView"
